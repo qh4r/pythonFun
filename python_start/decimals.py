@@ -14,12 +14,22 @@ print(sum);
 print(type(sum))
 print(type(23))
 
-st = "cos tam cos tam i jeszcze troche";
+st = " cos tam cos tam i jeszcze troche. i jeszcze troche. "
+st = st.strip().capitalize() # strip to trim - jest jeszcze lstrip i rstrip
+#capitalize robi pierwsza litere duza
+
+print(st)
 print('dl. stringa: ',len(st))
 # print(len(sum)) # -- nie zadziala obiekt musi miec dlugosc
 print(st.__len__()) # -- mozna tak sie dostac do pola z dlugoscia
 print(st[4:9],'\n', st[-10: -5]) # zakresy od do - drugi od kocna liczac
 print(str(4) + "asd")
+
+list = ["asd", "asdsda", "vxcxvcx"]
+# troche egzotyczny jin elementow listy stringow
+merged = " + ".join(list)
+
+print(merged)
 
 # tez mozna iterowac pos tringach
 for c in "dupa":
