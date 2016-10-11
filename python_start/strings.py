@@ -1,5 +1,10 @@
 from decimal import Decimal as Dec
 
+lista = list(range(3,10))
+print(lista)
+print(4 in lista)
+print(2 in lista)
+
 letters = "zs"
 number = "23"
 space = " "
